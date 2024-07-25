@@ -38,7 +38,8 @@ Follow these steps to set up the project locally:
 ## Project Structure
 **Here is an overview of the project's structure:**
 
-![Uploading image.png…]()
+![Capture](https://github.com/user-attachments/assets/cd08bba2-dc7d-4fa7-bdab-22a8a70e4742)
+
 
 
 
