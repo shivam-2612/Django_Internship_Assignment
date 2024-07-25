@@ -1,4 +1,4 @@
-![Screenshot (62)](https://github.com/user-attachments/assets/116d9906-6090-45c8-909a-015b246bd54b)# Django_Internship_Assignment
+# Django_Internship_Assignment
 # MyProject
 
 ## Overview
@@ -19,51 +19,39 @@ Follow these steps to set up the project locally:
    cd myproject
 
 2. **Install Dependencies**
+   ```bash
    pip install -r requirements.txt
 
 3. **Apply database migrations**
+   ```bash
    python manage.py migrate
 
 4. **Create a superuser**
+   ```bash
    python manage.py createsuperuser
 
 5. **Run the development server**
+   ```bash
    python manage.py runserver
+
 
 ## Project Structure
 **Here is an overview of the project's structure:**
-myproject/
-│
-├── db.sqlite3                 # SQLite database file
-├── manage.py                  # Django management script
-├── requirements.txt           # List of dependencies
-├── myapp/                     # Application directory
-│   ├── __init__.py
-│   ├── admin.py               # Admin interface configuration
-│   ├── apps.py                # Application configuration
-│   ├── forms.py               # Forms definitions
-│   ├── migrations/            # Database migrations
-│   ├── models.py              # Data models
-│   ├── templates/             # HTML templates
-│   ├── tests.py               # Tests
-│   ├── urls.py                # URL routing
-│   ├── views.py               # Views
-│   └── __pycache__/           # Python cache files
-│
-└── myproject/                 # Project settings directory
-    ├── __init__.py
-    ├── asgi.py                # ASGI config
-    ├── settings.py            # Project settings
-    ├── urls.py                # Project URL routing
-    └── wsgi.py                # WSGI config
+
+![Uploading image.png…]()
+
+
 
 ## Usage
 **To use the application, follow these steps:**
 
 1. **Start the server**
+   ```bash
    python manage.py runserver
+
 2. **Access the application**
    Open your web browser and go to http://127.0.0.1:8000/.
+
 3. **Admin interface**
    Access the admin interface at http://127.0.0.1:8000/admin/ and log in with the superuser credentials you created.
 
@@ -72,8 +60,7 @@ myproject/
 https://www.loom.com/share/4a92330649ff4eb1bab06b368ba513e2?sid=33384aa3-f709-45cd-beab-de2531db1f3c
 
 
-## Screenshots
-![Uploading Screenshot (63).png…]()
+
 
 
 
